@@ -52,7 +52,7 @@ nav:
        - "Imputation": 31_imputation/Imputation.md
     - "GWAS" : 
        - "Association tests by PLINK": 06_Association_tests/README.md
-       - "Visualization by gwaslab": Visualization.ipynb
+       - "Visualization by gwaslab": 06_Association_tests/Visualization.ipynb
        - "Linear mixed model (LMM)" : 33_linear_mixed_model/README.md
        - "Whole genome regression by REGENIE" : 32_whole_genome_regression/README.md
     - "Post-GWAS" :
@@ -62,7 +62,7 @@ nav:
        - "Gene/Gene-set tests by MAGMA" : 09_Gene_based_analysis/README.md
        - "Fine-mapping by susieR" : 
           - "Fine-mapping Basics" : 12_fine_mapping/README.md
-          - "SuSIE Fine-mapping Tutorial" : finemapping_susie.ipynb
+          - "SuSIE Fine-mapping Tutorial" : 12_fine_mapping/finemapping_susie.ipynb
        - "Meta-analysis" : 11_meta_analysis/README.md
        - "Polygenic Risk Score" : 
           - "PRS Basics" : 10_PRS/README.md
@@ -70,7 +70,7 @@ nav:
           - "PRS Tutorial" : 10_PRS/prs_tutorial.ipynb
        - "Mendelian randomization": 
           - "MR Basics" : 16_mendelian_randomization/README.md
-          - "TwoSampleMR Tutorial" : TwoSampleMR.ipynb
+          - "TwoSampleMR Tutorial" : 16_mendelian_randomization/TwoSampleMR.ipynb
        - "Conditional analysis" : 18_Conditioning_analysis/README.md
        - "Colocalization" : 17_colocalization/README.md
        - "TWAS (using FUSION)": 21_twas/README.md
