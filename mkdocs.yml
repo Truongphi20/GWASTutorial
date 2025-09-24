@@ -21,69 +21,69 @@ theme:
     
 nav:
     - Home: 
-      - "Tutorial guide" : index.md
-      - "About" : 99_About.md
+      - "Tutorial guide" : README.md
+      - "About" : 99_About/README.md
     - "Command Line" :
        - "Linux" : 
-          - "Linux Basics" : 02_Linux_basics.md
-          - "Windows Linux Subsystem" : 82_windows_linux_subsystem.md
-          - "SSH" : 84_ssh.md
-          - "Job scheduler" : 85_job_scheduler.md
-          - "Text editing - awk" : 60_awk.md
-          - "Text editing - sed" : 61_sed.md
-          - "Linux Resources" : 69_resources.md
+          - "Linux Basics" : 02_Linux_basics/README.md
+          - "Windows Linux Subsystem" : 82_windows_linux_subsystem/README.md
+          - "SSH" : 84_ssh/README.md
+          - "Job scheduler" : 85_job_scheduler/README.md
+          - "Text editing - awk" : 60_awk/README.md
+          - "Text editing - sed" : 61_sed/README.md
+          - "Linux Resources" : 69_resources/README.md
        - "Python":
-          - "Python Basics": 70_python_basics.md
-          - "Python Resources" : 71_python_resources.md
-          - "Anaconda" : 80_miniconda.md
-          - "Jupyter notebook" : 81_jupyter_notebook.md
+          - "Python Basics": 70_python_basics/README.md
+          - "Python Resources" : 71_python_resources/README.md
+          - "Anaconda" : 80_miniconda/README.md
+          - "Jupyter notebook" : 81_jupyter_notebook/README.md
        - "R" : 
-          - "R Basics": 75_R_basics.md
-          - "R Resources" : 76_R_resources.md
+          - "R Basics": 75_R_basics/README.md
+          - "R Resources" : 76_R_resources/README.md
        - "Other tools" :
-          - "Git and github" : 83_git_and_github.md
+          - "Git and github" : 83_git_and_github/README.md
     - "Pre-GWAS" :
-       - "Sample Dataset" : 01_Dataset.md
-       - "Data Formats" : 03_Data_formats.md
-       - "Genotype Data QC" : 04_Data_QC.md
-       - "Sample PCA" : 05_PCA.md
-       - "Plot PCA" : plot_PCA.ipynb
-       - "Phasing" : Phasing.md
-       - "Imputation": Imputation.md
+       - "Sample Dataset" : 01_Dataset/README.md
+       - "Data Formats" : 03_Data_formats/README.md
+       - "Genotype Data QC" : 04_Data_QC/README.md
+       - "Sample PCA" : 05_PCA/README.md
+       - "Plot PCA" : 05_PCA/plot_PCA.ipynb
+       - "Phasing" : 30_phasing/Phasing.md
+       - "Imputation": 31_imputation/Imputation.md
     - "GWAS" : 
-       - "Association tests by PLINK": 06_Association_tests.md
+       - "Association tests by PLINK": 06_Association_tests/README.md
        - "Visualization by gwaslab": Visualization.ipynb
-       - "Linear mixed model (LMM)" : 33_linear_mixed_model.md
-       - "Whole genome regression by REGENIE" : 32_whole_genome_regression.md
+       - "Linear mixed model (LMM)" : 33_linear_mixed_model/README.md
+       - "Whole genome regression by REGENIE" : 32_whole_genome_regression/README.md
     - "Post-GWAS" :
-       - "Annotation by ANNOVAR & VEP" : 07_Annotation.md
-       - "SNP-heritability estimation by GREML" : 14_gcta_greml.md
-       - "LD score regression by LDSC" : 08_LDSC.md
-       - "Gene/Gene-set tests by MAGMA" : 09_Gene_based_analysis.md
+       - "Annotation by ANNOVAR & VEP" : 07_Annotation/README.md
+       - "SNP-heritability estimation by GREML" : 14_gcta_greml/README.md
+       - "LD score regression by LDSC" : 08_LDSC/README.md
+       - "Gene/Gene-set tests by MAGMA" : 09_Gene_based_analysis/README.md
        - "Fine-mapping by susieR" : 
-          - "Fine-mapping Basics" : 12_fine_mapping.md
+          - "Fine-mapping Basics" : 12_fine_mapping/README.md
           - "SuSIE Fine-mapping Tutorial" : finemapping_susie.ipynb
-       - "Meta-analysis" : 11_meta_analysis.md
+       - "Meta-analysis" : 11_meta_analysis/README.md
        - "Polygenic Risk Score" : 
-          - "PRS Basics" : 10_PRS.md
-          - "PRS evaluation" : PRS_evaluation.md
-          - "PRS Tutorial" : prs_tutorial.ipynb
+          - "PRS Basics" : 10_PRS/README.md
+          - "PRS evaluation" : 10_PRS/PRS_evaluation.md
+          - "PRS Tutorial" : 10_PRS/prs_tutorial.ipynb
        - "Mendelian randomization": 
-          - "MR Basics" : 16_mendelian_randomization.md
+          - "MR Basics" : 16_mendelian_randomization/README.md
           - "TwoSampleMR Tutorial" : TwoSampleMR.ipynb
-       - "Conditional analysis" : 18_Conditioning_analysis.md
-       - "Colocalization" : 17_colocalization.md
-       - "TWAS (using FUSION)": 21_twas.md
+       - "Conditional analysis" : 18_Conditioning_analysis/README.md
+       - "Colocalization" : 17_colocalization/README.md
+       - "TWAS (using FUSION)": 21_twas/README.md
     - Topics :
-       - "Linkage Disequilibrium (LD)" : 19_ld.md
-       - "Heritability Concepts" : 13_heritability.md
-       - "Statistical power" : 20_power_analysis.md
-       - "Winner's curse" : 15_winners_curse.md
-       - "Measure of effect" : 55_measure_of_effect.md
-       - "Recommended reading" : 90_Recommended_Reading.md
+       - "Linkage Disequilibrium (LD)" : 19_ld/README.md
+       - "Heritability Concepts" : 13_heritability/README.md
+       - "Statistical power" : 20_power_analysis/README.md
+       - "Winner's curse" : 15_winners_curse/README.md
+       - "Measure of effect" : 55_measure_of_effect/README.md
+       - "Recommended reading" : 90_Recommended_Reading/README.md
     - "Assignments" :
-       - "Assignment - 1KG PCA" : 95_Assignment.md
-       - "Assignment - Presentation" : 96_Assignment2.md
+       - "Assignment - 1KG PCA" : 95_Assignment/README.md
+       - "Assignment - Presentation" : 96_Assignment2/README.md
 
 markdown_extensions:
   - toc:
